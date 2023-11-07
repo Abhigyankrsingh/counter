@@ -9,7 +9,12 @@ function App() {
   return (
     <>
      <h1> Hello React</h1>
-     <h2> Counter Value</h2>
+     <h2> Counter Value: 5</h2>
+
+     <button> Add value</button>
+     <br/>
+
+     <button>Remove value</button>
     </>
   )
 }
