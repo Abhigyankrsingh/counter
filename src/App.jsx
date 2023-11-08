@@ -13,6 +13,11 @@ function App() {
     counter = counter +1;
     setCounter(counter)
   }
+
+
+  const removeValue = () => {
+    setCounter(counter -1)
+  }
   return (
     <>
      <h1> Hello React</h1>
@@ -23,7 +28,9 @@ function App() {
      > Add value {counter}</button>
      <br/>
 
-     <button>Remove value {counter}</button>
+     <button>
+     onClick = {removeValue}
+     Remove value {counter}</button>
      <p> footer:{counter}</p>
     </>
   )
