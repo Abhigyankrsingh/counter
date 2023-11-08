@@ -6,7 +6,7 @@ import './App.css'
 function App() {
 
 
-  const [counter, setCounter]= useState(15)
+  let[counter, setCounter]= useState(15)
   //let counter = 15;
   let addValue = () => {
     console.log("clicked", counter);
